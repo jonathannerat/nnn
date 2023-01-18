@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+# Description: Send the selected files to your Android device using mconnectctl
+#              kdeconnect must be configured on the Android device (KDE Connect)
+#              and the PC (mconnect)
+#
+# Shell: POSIX compliant
+# Author: jonathannerat
+
+selection="${NNN:-${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.selection}"
